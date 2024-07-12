@@ -1,0 +1,27 @@
+from datetime import datetime
+# Informações do empregrado e da empresa
+print("Digite o nome da empresa:")
+Empresa= (input())
+print("Digite o nome do gestor:")
+Gestor = (input())
+print("Digite o cargo na empresa")
+Cargo = (input())
+print=(" inicio do aviso previo")
+AvPre1 = str(input())
+print("Temino do aviso previo")
+Avpre2 = str(input())
+print("Local e data")
+lDAta = input()
+print("Assinatura")
+Ass = input()
+print("nome completo")
+NCon = input()
+
+#Impressao da carta
+print(f"À{Empresa}.")
+print(f"Prezado{Gestor},")
+print(f"Venho por meio desta carta comunicar formalmente meu pedido de demissão do cargo de{Cargo}.")
+print(f"Estarei á disposição da empresa durante o aviso prévio no período de {AvPre1} a {Avpre2} .")
+print(f"{lDAta}.")
+print(f"{Ass}")
+print(f"{NCon}.")

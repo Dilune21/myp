@@ -1,14 +1,12 @@
 # Solicita os três números distintos do usuário
-x = float(input("Digite o primeiro número (X): "))
-y = float(input("Digite o segundo número (Y): "))
-z = float(input("Digite o terceiro número (Z): "))
+x = int(input("Digite o primeiro número x:"))
+y = int(input("Digite o segundo número Y:"))
+z = int(input("Digite o terceiro número Z:"))
 
-# Verifica se os números estão em ordem crescente
-if x < y < z:
+if x < y and y < z:
     print("Os números estão em ordem crescente.")
-# Verifica se os números estão em ordem decrescente
-elif x > y > z:
+elif x > y and y > z:
     print("Os números estão em ordem decrescente.")
-# Caso contrário, os números estão misturados
+
 else:
     print("Eles estão misturados!")

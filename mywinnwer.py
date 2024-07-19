@@ -1,5 +1,4 @@
 import random
-
 # Função para determinar o vencedor
 def determinar_vencedor(jogador, computador):
     if jogador == computador:

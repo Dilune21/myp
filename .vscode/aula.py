@@ -7,9 +7,9 @@ Média = (nota1 + nota2 + nota3 +nota4) / 4
 
 if Média >=6:
   print("você esta aprovado!")
-else: Média <4: # type: ignore
+elif Média < 4 :
   print("você está reprovado...")
-elif Média 4 and 6:
+elif 4 <= Média <6:
   print("Recuperação...")
 
 print(f"Sua média é {Média}.")
